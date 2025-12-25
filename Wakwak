@@ -73,7 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Angler Rod",
         ["Event List"] = {
             ["Christmas Cave"] = true,
-            ["Hacker Event"] = true, 
+            ["Hacker Event"] = false, 
         },
     },
     ["Enchant"] = {
