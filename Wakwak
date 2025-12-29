@@ -116,6 +116,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Crater Island"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Ghostfinn Rod"}, 
         },
     },
 
