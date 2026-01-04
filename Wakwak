@@ -70,10 +70,10 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Event"] = {
-        ["Start Farm"] = true,
+        ["Start Farm"] = false,
         ["Minimum Rod"] = "Angler Rod",
         ["Event List"] = {
-            ["Christmas Cave"] = true,
+            ["Christmas Cave"] = false,
             ["Hacker Event"] = false, 
         },
     },
