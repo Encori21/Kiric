@@ -4,16 +4,20 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
+            {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Auto Accept Trade"] = true,
     },
-    ["Auto Trade"] = {
-        ["Enabled"] = true,
+      ["Auto Trade"] = {
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"corihood"},
-        ["Category Fish"] = { -- Only Select one, fill in the Category Fish or Fish Name
+        ["Category Fish"] = {
             "Secret",
         },
         ["Fish Name"] = {
+        },
+        ["Item Name"] = {
+            "Evolved Enchant Stone",
         },
     },
     ["Farm Coin Only"] = {
@@ -61,20 +65,22 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Angler Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = false,
+        ["Auto Use"] = true,
         ["Minimum Rod"] = "Angler Rod",
         ["Buy List"] = {
             "Luck Totem",
             "Mutation Totem",
-            "Shiny Totem",
         },
     },
-    ["Event"] = {
-        ["Start Farm"] = false,
-        ["Minimum Rod"] = "Angler Rod",
+   ["Event"] = {
+        ["Start Farm"] = true,
+        ["Minimum Rod"] = "Astral Rod",
         ["Event List"] = {
             ["Christmas Cave"] = false,
-            ["Hacker Event"] = false, 
+            ["Hacker Event"] = false,
+            "Megalodon Hunt",
+            "Ghost Shark Hunt",
+            "Shark Hunt",
         },
     },
     ["Enchant"] = {
@@ -98,12 +104,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
-            "Midnight Bait",
-            "Chroma Bait",
-            "Corrupt Bait",
-            "Aether Bait",
+            "Floral Bait",
         },
     },
     ["Rod List"] = {
