@@ -125,13 +125,15 @@ _G.FishItConfig = _G.FishItConfig or {
              ["Kohana"] = {"Element Rod"},
         },
     },
-
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
-    ["HideGUI"] = false,
+    ["HideGUI"] = true,
     ["Debug"] = false,
-    ["EXIT_MAP_IF_DISCON    ["HideGUI"] = true,tring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
+}
+
+
