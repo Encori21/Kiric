@@ -86,8 +86,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true,
+        ["Auto Enchant"] = false,
+        ["Roll Enchant"] = false,
         ["Enchant List"] = {
             "Cursed",
         },
