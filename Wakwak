@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
         },
         ["Fish Name"] = {
-            {Name = "Sacred Guardian Squid", Variant = ""}, 
+            {Name = "Sacred Guardian Squid"}, 
             {Name = "Ruby", Variant = "Gemstone"}, 
         },
         ["Item Name"] = {
@@ -47,7 +47,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/1450405549710512231/DuZptFEUxdF1S8d2YQr0nObqR-Xds8FRlauJw7NDC17FkciYLK2_7ypRSGvxZD8gJ0ZP",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},{Name = "Ruby", Variant = "Gemstone"},
+        ["Category"] = {"Secret"},{"Legendary"},
 
         ["Link Webhook Quest Complete"] = "https://discordapp.com/api/webhooks/1456486312067465381/d1ODZibqSn564Lc0gxgAOOLHLgu9FLIr6Qa84R3hR5Z-FkQnMo75o8mZADAJtnBSyXSC",
     },
@@ -75,7 +75,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
    ["Event"] = {
-        ["Start Farm"] = true,
+        ["Start Farm"] = false,
         ["Minimum Rod"] = "Astral Rod",
         ["Event List"] = {
             ["Christmas Cave"] = false,
@@ -86,12 +86,10 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Leprechaun II",
-            "Mutation Hunter II",
-            "Prismatic I",
+            "Cursed",
         },
         ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
@@ -121,8 +119,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = {
-            ["Kohana"] = {"Ghostfinn Rod"},
-             ["Kohana"] = {"Element Rod"},
+            ["Treasure Room"] = {"Ghostfinn Rod"},
+             ["Ancient Ruin"] = {"Element Rod"},
         },
     },
     ["ExtremeFpsBoost"] = true,
@@ -131,7 +129,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
-    ["HideGUI"] = true,
+    ["HideGUI"] = false,
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
