@@ -70,7 +70,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Angler Rod",
         ["Buy List"] = {
-            "Luck Totem",
             "Mutation Totem",
         },
     },
@@ -119,8 +118,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = {
-            ["Kohana"] = {"Ghostfinn Rod"},
-             ["Treasure Room"] = {"Element Rod"},
+            ["Treasure Room"] = {"Ghostfinn Rod"},
+             ["Ancient Ruin"] = {"Element Rod"},
         },
     },
     ["ExtremeFpsBoost"] = true,
