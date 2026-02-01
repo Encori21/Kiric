@@ -78,16 +78,13 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {
             ["Mutation Totem"] = 5,
             "Luck Totem",
-            "Shiny Totem",
-        },
+       },
     },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
-            "Ghost Shark Hunt",
-            "Shark Hunt",
             ["Christmas Cave"] = false,
         },
     },
